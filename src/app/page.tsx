@@ -10,7 +10,7 @@ export default function Main() {
       <div className="flex flex-col mt-24">
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-11 space-y-16 md:space-y-0">
           <div className="inline-grid grid-col-2 grid-row-2 gap-5 w-80">
-            <div className="col-span-2 bg-slate-200 p-2 rounded-xl text-center  flex flex-col space-y-2 shadow-2xl shadow-blue-300/40">
+            <div className="col-span-2 bg-slate-200 p-2 rounded-xl text-center  flex flex-col space-y-2 shadow-2xl shadow-blue-200/50">
               <h1 className="text-2xl bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text font-semibold ">
                 Rayane Saboundji
               </h1>
