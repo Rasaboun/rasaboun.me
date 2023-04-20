@@ -58,7 +58,10 @@ export default function RootLayout({
               className="w-6 h-6 "
             >
               <defs>
-                <linearGradient id="lightGradient" gradientTransform="rotate(90)">
+                <linearGradient
+                  id="lightGradient"
+                  gradientTransform="rotate(90)"
+                >
                   <stop offset="5%" stopColor="#9ca3af" />
                   <stop offset="95%" stopColor="#404040" />
                 </linearGradient>
@@ -69,13 +72,13 @@ export default function RootLayout({
         </nav>
 
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
 }
 
- const Footer = () => {
+const Footer = () => {
   return (
     <footer className="flex flex-col justify-center items-center bg-transparent border-t-0 border-sky-50 mx-4 mb-24 my-10">
       <div className="flex flex-col space-y-8 lg:py-8">
@@ -87,23 +90,13 @@ export default function RootLayout({
               </h2>
               <ul className="text-sky-100 font-medium flex flex-col space-y-4">
                 <li className="">
-                  <span className="hover:underline">
-                    Rasaboun
-                  </span>
+                  <Link className="hover:underline" href="/">Rasaboun</Link>
                 </li>
                 <li>
-                  <span
-                    className="hover:underline"
-                  >
-                    Blog
-                  </span>
+                  <Link className="hover:underline" href="/Blog">Blog</Link>
                 </li>
-				<li>
-                  <span
-                    className="hover:underline"
-                  >
-                    Portfolio
-                  </span>
+                <li>
+                  <Link className="hover:underline" href="/Portfolio">Portfolio</Link>
                 </li>
               </ul>
             </div>
@@ -114,18 +107,14 @@ export default function RootLayout({
               <ul className="text-sky-100 font-medium flex flex-col space-y-4">
                 <li className="">
                   <a
-				  href="https://github.com/Rasaboun"
+                    href="https://github.com/Rasaboun"
                     className="hover:underline "
                   >
                     Github
                   </a>
                 </li>
                 <li>
-                  <span
-                    className="hover:underline"
-                  >
-                    Twitter
-                  </span>
+                  <span className="hover:underline">Twitter</span>
                 </li>
               </ul>
             </div>

@@ -1,12 +1,13 @@
 import Image from "next/image";
 export default function Main() {
   return (
-    <main className="flex flex-col justify-center items-center mt-5">
-      <div className="py-2 px-6 bg-slate-100 rounded-xl mb-10 mx-10">
+    <main className="flex flex-col items-center h-screen ">
+      <div className="py-2 px-6 bg-slate-100 rounded-xl my-10 mx-10">
         <div className="  text-slate-800 text-3xl font-medium bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-amber-400 via-neutral-400 to-slate-500 text-transparent bg-clip-text drop-shadow-2xl">
           Hello, I&apos;m an web developer based in Paris !
         </div>
       </div>
+      <div className="flex flex-col mt-24">
       <div className="flex flex-col md:flex-row justify-around space-y-16 md:space-y-0">
         <div className="inline-grid grid-col-2 grid-row-2 gap-5 w-80">
           <div className="col-span-2 bg-slate-100 p-2 rounded-xl text-center  flex flex-col space-y-2 shadow-2xl shadow-blue-300/40">
@@ -161,6 +162,7 @@ export default function Main() {
             </svg>
           </div>
         </div>
+      </div>
       </div>
     </main>
   );
