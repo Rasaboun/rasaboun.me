@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Main() {
   return (
-    <main className="flex flex-col items-center h-screen ">
+    <main className="flex flex-col items-center min-h-screen ">
       <div className="py-2 px-6 bg-slate-100 rounded-xl my-10 mx-10">
         <div className="  text-slate-800 text-3xl font-medium bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-amber-400 via-neutral-400 to-slate-500 text-transparent bg-clip-text drop-shadow-2xl">
           Hello, I&apos;m an web developer based in Paris !
