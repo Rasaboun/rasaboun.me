@@ -22,7 +22,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 min-h-screen">
+      <body className="bg-gradient-to-tr from-slate-900 via-[#021348] to-slate-900 min-h-screen">
         <NavBar/>
 
         {children}
