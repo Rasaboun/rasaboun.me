@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 min-h-screen">
-        <nav className="fixed inset-x-0 bottom-0 text-black flex flex-row justify-center lg:justify-between items-center mx-5 mb-5 ">
+        <nav className="fixed inset-x-0 bottom-0 text-black flex flex-row justify-center lg:justify-between items-center mx-5 mb-5 z-50	">
           <b className="hidden lg:block text-2xl font-bold bg-gradient-to-tl from-gray-600 via-slate-500 to-cyan-400 text-transparent bg-clip-text">
             Rasaboun
           </b>
