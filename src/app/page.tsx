@@ -51,13 +51,13 @@ export default function Main() {
           <div className="inline-grid grid-col-2 grid-row-2 md:grid-cols-5 md:grid-row-2 gap-y-6 md:gap-y-5 gap-x-3 w-80 md:w-1/3 ">
             <div className="col-span-5 md:col-span-5 row-span-2 h-16 bg-slate-100 rounded-xl  flex conter-center justify-center shadow-2xl shadow-blue-500/50">
               <h1 className="flex flex-row items-center text-center font-semibold text-2xl tracking-wide	 text-slate-950  self-center bg-gradient-to-tl from-gray-400 via-zinc-500 to-neutral-700 text-transparent bg-clip-text">
-                &gt; I can code in{" "}
+                I can code in{" "}
                 <span role="img" aria-label="arrow_Down">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-8 h-8 fill-zinc-600"
+                    className="w-8 h-8 fill-zinc-500"
                   >
                     <path
                       fillRule="evenodd"
@@ -129,14 +129,14 @@ export default function Main() {
               </svg>
             </div>
             <div className="col-span-5 h-16 bg-slate-100 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-2xl shadow-blue-500/50  mt-3">
-              <h1 className="flex flex-row items-center text-center text-slate-950  self-center font-semibold text-2xl tracking-wide bg-gradient-to-tl from-gray-400 via-zinc-500 to-neutral-700 text-transparent bg-clip-text">
-                &gt; The frameworks I use{" "}
+              <h1 className="flex flex-row items-center text-center text-slate-950  self-center font-semibold text-2xl md:text-xl lg:text-2xl tracking-wide bg-gradient-to-tl from-gray-400 via-zinc-500 to-neutral-700 text-transparent bg-clip-text">
+                The frameworks I use{" "}
                 <span role="img" aria-label="arrow_Down">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-8 h-8 fill-zinc-600"
+                    className="w-8 h-8 fill-zinc-500"
                   >
                     <path
                       fillRule="evenodd"

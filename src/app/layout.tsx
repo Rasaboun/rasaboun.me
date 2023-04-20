@@ -24,7 +24,7 @@ export default function RootLayout({
           <b className="hidden lg:block text-2xl font-bold bg-gradient-to-tl from-gray-600 via-slate-500 to-cyan-400 text-transparent bg-clip-text">
             Rasaboun
           </b>
-          <div className="font-semibold text-slate-800 text-lg flex flex-row items-center rounded-3xl border-gray-300 border-2 p-2 space-x-2 lg:space-x-8 shadow-2xl shadow-gray-950/60 backdrop-blur-md bg-white/80">
+          <div className="font-semibold text-slate-800 text-lg flex flex-row items-center rounded-3xl border-gray-300 border-2 p-2 space-x-2 lg:space-x-8 shadow-2xl shadow-gray-950/60 backdrop-blur-md bg-white/70">
             <Link
               href="/"
               className="hover:border-gray-500 border-2 border-transparent rounded-2xl p-2 text-transparent bg-clip-text bg-gradient-to-l from-gray-500 via-zinc-600 to-slate-800"
