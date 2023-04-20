@@ -129,7 +129,7 @@ export default function Main() {
               </svg>
             </div>
             <div className="col-span-5 h-16 bg-slate-100 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-2xl shadow-blue-500/50  mt-3">
-              <h1 className="flex flex-row items-center text-center text-slate-950  self-center font-semibold text-2xl md:text-xl lg:text-2xl tracking-wide bg-gradient-to-tl from-gray-400 via-zinc-500 to-neutral-700 text-transparent bg-clip-text">
+              <h1 className="flex flex-row items-center text-center text-slate-950  self-center font-semibold text-2xl md:text-xl tracking-wide bg-gradient-to-tl from-gray-400 via-zinc-500 to-neutral-700 text-transparent bg-clip-text">
                 The frameworks I use{" "}
                 <span role="img" aria-label="arrow_Down">
                   <svg
