@@ -3,7 +3,7 @@ import weatherpng from "../../../public/Weathear_DashBoard.png";
 export default function Home() {
   return (
     <main className="flex flex-col space-y-20 items-center h-screen">
-      <div className="py-2 px-6 bg-slate-100 rounded-xl my-5 mx-10 h-fit w-fit">
+      <div className="py-2 px-6 bg-slate-100 rounded-xl my-5 mx-10 h-fit w-fit shadow-2xl shadow-slate-300/30">
         <h1 className="  text-slate-800 text-3xl font-medium bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900   text-transparent bg-clip-text drop-shadow-2xl">
           Here is my portfolio !
         </h1>
