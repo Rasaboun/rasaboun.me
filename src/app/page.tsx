@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Main() {
   return (
-    <main className="flex flex-col items-center min-h-screen ">
+    <main className="flex flex-col items-center  ">
       <div className="py-2 px-6 bg-slate-200 rounded-xl my-10 mx-10 shadow-2xl shadow-slate-300/30">
         <div className="  text-slate-800 text-3xl font-medium bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text ">
           Hello, I&apos;m an web developer based in Paris !
@@ -10,13 +10,13 @@ export default function Main() {
       <div className="flex flex-col mt-24">
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-11 space-y-16 md:space-y-0">
           <div className="inline-grid grid-col-2 grid-row-2 gap-5 w-80">
-            <div className="col-span-2 bg-slate-200 p-2 rounded-xl text-center  flex flex-col space-y-2 shadow-2xl shadow-blue-200/30">
-              <h1 className="text-2xl bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text font-semibold ">
+            <div className="col-span-2 bg-white/5 p-2 rounded-xl text-center  flex flex-col space-y-2 shadow-2xl shadow-blue-200/30">
+              <h1 className="text-2xl bg-gradient-to-bl from-slate-50 via-slate-50 to-slate-50 text-transparent bg-clip-text font-semibold ">
                 Rayane Saboundji
               </h1>
-              <hr className="h-1 my-8 mx-20 bg-gray-300 border-0 " />
+              <hr className="h-1 my-8 mx-20 bg-blue-900 border-0 " />
 
-              <p className="font-medium text-lg	bg-gradient-to-bl from-slate-900 via-slate-700 to-slate-900 text-transparent bg-clip-text indent-1">
+              <p className="font-medium text-lg	text-white indent-1">
                 a Front-End developer who studied at École 42 in Paris. On this
                 blog, I share my knowledge and experience in web development
               </p>
@@ -50,15 +50,15 @@ export default function Main() {
           </div>
 
           <div className="inline-grid grid-col-2 grid-row-2 md:grid-cols-5 md:grid-row-2 gap-y-6 md:gap-y-5 gap-x-3 w-80 md:w-1/3 ">
-            <div className="col-span-5 md:col-span-5 row-span-2 h-16 bg-slate-200 rounded-xl  flex conter-center justify-center shadow-xl shadow-blue-500/50">
-              <h1 className="flex flex-row items-center text-center font-semibold text-2xl tracking-wide	 bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text  self-center">
+            <div className="col-span-5 md:col-span-5 row-span-2 h-16 bg-white/5 rounded-xl  flex conter-center justify-center shadow-xl shadow-blue-500/50">
+              <h1 className="flex flex-row items-center text-center font-semibold text-2xl tracking-wide	 bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text  self-center">
                 I can code in{" "}
                 <span role="img" aria-label="arrow_Down">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-8 h-8 fill-zinc-500"
+                    className="w-8 h-8 fill-slate-50"
                   >
                     <path
                       fillRule="evenodd"
@@ -129,8 +129,8 @@ export default function Main() {
                 <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
               </svg>
             </div>
-            <div className="col-span-5 h-16 md:h-20 bg-slate-200 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-2xl shadow-blue-500/80 mt-3">
-              <h1 className="flex flex-row items-center text-center bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text  self-center font-semibold text-2xl tracking-wide ">
+            <div className="col-span-5 h-16 md:h-20 bg-white/5 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-2xl shadow-blue-500/80 mt-3">
+              <h1 className="flex flex-row items-center text-center bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text  self-center font-semibold text-2xl tracking-wide ">
                 The frameworks I use{" "}
                 <span role="img" aria-label="arrow_Down">
                   <svg

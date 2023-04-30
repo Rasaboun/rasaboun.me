@@ -15,7 +15,7 @@ export const NavBar = () => {
 	return (
 		<nav className="fixed inset-x-0 bottom-0 text-black flex flex-row justify-center items-center mx-5 mb-5 z-50	">
 		
-		<div className="font-semibold text-slate-800 text-lg flex flex-row items-center rounded-3xl border-gray-300 border-2 p-2 space-x-2 lg:space-x-8 shadow-2xl shadow-gray-950/60 backdrop-blur-md bg-white/70">
+		<div className="font-semibold text-slate-800 text-lg flex flex-row items-center rounded-3xl border-gray-300 border-2 p-2 space-x-2 lg:space-x-8 shadow-2xl shadow-gray-950/60 backdrop-blur-md bg-white/80">
 		  <Link
 			href="/"
 			className={segment == null ? "border-gray-500 border-2" + linkclass : linkclass}
