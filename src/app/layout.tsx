@@ -76,6 +76,7 @@ const Footer = () => {
                   <a
                     href="https://github.com/Rasaboun"
                     className="hover:underline "
+                    data-umami-event="Github Button"
                   >
                     Github
                   </a>
