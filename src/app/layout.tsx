@@ -2,6 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 import { Roboto_Mono } from "next/font/google";
 import { NavBar } from "./NavBar";
+import Script from "next/script";
 
 const robotmono = Roboto_Mono({
   subsets: ["latin"],
@@ -18,12 +19,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-
-
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://analytics.umami.is/script.js"
+          data-website-id="57027048-aa0d-4e07-8092-14d9b76ec80b"
+        ></Script>
+      </head>
+
       <body className="bg-gradient-to-tr from-slate-950 via-[#021348] to-slate-950 min-h-screen">
-        <NavBar/>
+        <NavBar />
 
         {children}
         <Footer />
@@ -44,13 +51,19 @@ const Footer = () => {
               </h2>
               <ul className="text-sky-100 font-medium flex flex-col space-y-4">
                 <li className="">
-                  <Link className="hover:underline" href="/">Rasaboun</Link>
+                  <Link className="hover:underline" href="/">
+                    Rasaboun
+                  </Link>
                 </li>
                 <li>
-                  <Link className="hover:underline" href="/Blog">Blog</Link>
+                  <Link className="hover:underline" href="/Blog">
+                    Blog
+                  </Link>
                 </li>
                 <li>
-                  <Link className="hover:underline" href="/Portfolio">Portfolio</Link>
+                  <Link className="hover:underline" href="/Portfolio">
+                    Portfolio
+                  </Link>
                 </li>
               </ul>
             </div>
