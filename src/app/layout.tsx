@@ -73,14 +73,12 @@ const Footer = () => {
               </h2>
               <ul className="text-sky-100 font-medium flex flex-col space-y-4">
                 <li className="">
-                  <button data-umami-event="Github Button">
-                    <a
-                      href="https://github.com/Rasaboun"
-                      className="hover:underline "
-                    >
-                      Github
-                    </a>
-                  </button>
+                  <a
+                    href="https://github.com/Rasaboun"
+                    className="hover:underline "
+                  >
+                    Github
+                  </a>
                 </li>
                 <li>
                   <span className="hover:underline">Twitter</span>

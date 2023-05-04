@@ -37,6 +37,7 @@ export const NavBar = () => {
 		  <a
 			href="https://github.com/Rasaboun"
 			className="hover:border-gray-500 border-2 border-transparent rounded-2xl p-2 text-transparent bg-clip-text bg-gradient-to-r from-gray-500 via-zinc-600 to-slate-800"
+			data-umami-event="Github Button"
 		  >
 			Github
 		  </a>
