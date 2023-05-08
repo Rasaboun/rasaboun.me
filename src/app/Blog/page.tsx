@@ -21,6 +21,7 @@ export default function Home() {
       <h1 className="text-white text-lg">
         The Benefits of Server-Side Rendering (SSR) for Web Development
       </h1>
+      <Link href="/Blog/SSR_FR">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="-11.5 -10.23174 23 20.46348"
@@ -34,7 +35,7 @@ export default function Home() {
           <ellipse rx="11" ry="4.2" transform="rotate(120)" />
         </g>
       </svg>
-      <Link href="/Blog/SSR"></Link>
+     </Link>
       <h1 className="text-white text-lg">
         Les avantages du rendu côté serveur (SSR) pour le développement web
       </h1>
