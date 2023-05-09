@@ -61,7 +61,7 @@ export default function Main() {
               </h1>
             </div>
 
-            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 hover:shadow-blue-200/50 border border-blue-300/10">
+            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 hover:shadow-blue-200/50 hover:scale-105 border border-blue-300/10">
               <div className="flex flex-row space-x-2 justify-start items-center content-center">
                 <div className="bg-[#007acc]/30 rounded-xl p-2">
                   <svg viewBox="0 0 128 128" className="h-7 w-7">
