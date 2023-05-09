@@ -3,7 +3,7 @@ export default function Main() {
   return (
     <main className="flex flex-col items-center  ">
       <div className="py-2 px-6 bg-slate-200 rounded-xl my-10 mx-10 shadow-2xl shadow-slate-300/30">
-        <div className="  text-slate-800 text-3xl font-medium bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text ">
+        <div className="  text-slate-800 text-3xl font-normal bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text ">
           Hello, I&apos;m an web developer based in Paris !
         </div>
       </div>
@@ -11,35 +11,36 @@ export default function Main() {
         <div className="flex flex-col md:flex-row justify-center items-center md:space-x-11 space-y-16 md:space-y-0">
           <div className="inline-grid grid-col-2 grid-row-2 gap-5 w-80">
             <div className="col-span-2 bg-white/5 p-2 rounded-xl text-center  flex flex-col space-y-2 shadow-2xl shadow-blue-200/30">
-              <h1 className="text-2xl bg-gradient-to-bl from-slate-50 via-slate-50 to-slate-50 text-transparent bg-clip-text font-semibold ">
+              <h1 className="text-2xl bg-gradient-to-bl from-slate-50 via-slate-50 to-slate-50 text-transparent bg-clip-text font-normal ">
                 Rayane Saboundji
               </h1>
               <hr className="h-1 my-8 mx-20 bg-blue-900 border-0 " />
 
-              <p className="font-medium text-lg	text-white indent-1">
-                I am Front-End developer who studied at École 42 in Paris. On
-                this blog, I share my knowledge and experience in web
-                development
+              <p className="font-light text-lg	text-white indent-1">
+              Having studied at École 42 in Paris, I specialize in Front-End development and use this blog to share my expertise and experience in web development.
               </p>
             </div>
 
             <a
               href="https://github.com/Rasaboun"
-              className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-white/40"
+              className="flex justify-center content-center bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10"
             >
               <svg
-                fill="#181717"
-                role="img"
-                viewBox="0 0 24 24"
+                viewBox="0 0 128 128"
                 className="w-2/3 duration-300 hover:rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
               >
-                <title>GitHub</title>
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-              </svg>{" "}
+                <g fill="#181616">
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"
+                  ></path>
+                  <path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path>
+                </g>
+              </svg>
             </a>
 
-            <div className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-white/40">
+            <div className="flex justify-center content-center bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
               <svg
                 fill="#1DA1F2"
                 role="img"
@@ -55,22 +56,8 @@ export default function Main() {
 
           <div className="grid grid-rows-8 grid-cols-1 md:grid-rows-4 md:grid-cols-6 gap-y-6  gap-x-3 max-w-lg mx-8">
             <div className="col-span-full	h-[74px] bg-white/5 rounded-xl  flex conter-center justify-center shadow-lg shadow-blue-500/50">
-              <h1 className="flex flex-row items-center text-center font-semibold text-2xl tracking-wide	 bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text  self-center">
-                My Current Stack{" "}
-                <span role="img" aria-label="arrow_Down">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-8 h-8 fill-slate-50"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 5a.75.75 0 01.75.75v6.638l1.96-2.158a.75.75 0 111.08 1.04l-3.25 3.5a.75.75 0 01-1.08 0l-3.25-3.5a.75.75 0 111.08-1.04l1.96 2.158V5.75A.75.75 0 0110 5z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
+              <h1 className="text-center text-2xl bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text self-center">
+                My Current Stack
               </h1>
             </div>
 
@@ -160,12 +147,6 @@ export default function Main() {
               </div>
             </div>
 
-
-
-
-
-            
-
             <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10 flex items-center content-center">
               <div className="flex flex-row space-x-2 justify-start items-center content-center">
                 <div className="bg-[#33A9DC]/20 rounded-xl p-2">
@@ -223,7 +204,6 @@ export default function Main() {
                 </span>
               </div>
             </div>
-
           </div>
         </div>
       </div>
