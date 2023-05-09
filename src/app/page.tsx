@@ -17,12 +17,16 @@ export default function Main() {
               <hr className="h-1 my-8 mx-20 bg-blue-900 border-0 " />
 
               <p className="font-medium text-lg	text-white indent-1">
-                a Front-End developer who studied at École 42 in Paris. On this
-                blog, I share my knowledge and experience in web development
+                I am Front-End developer who studied at École 42 in Paris. On
+                this blog, I share my knowledge and experience in web
+                development
               </p>
             </div>
-            
-            <a href="https://github.com/Rasaboun" className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-white/40">
+
+            <a
+              href="https://github.com/Rasaboun"
+              className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-white/40"
+            >
               <svg
                 fill="#181717"
                 role="img"
@@ -49,10 +53,10 @@ export default function Main() {
             </div>
           </div>
 
-          <div className="inline-grid grid-col-2 grid-row-2 md:grid-cols-5 md:grid-row-2 gap-y-6 md:gap-y-5 gap-x-3 w-80 md:w-1/3 ">
-            <div className="col-span-5 md:col-span-5 row-span-2 h-16 bg-white/5 rounded-xl  flex conter-center justify-center shadow-xl shadow-blue-500/50">
+          <div className="grid grid-rows-8 grid-cols-1 md:grid-rows-4 md:grid-cols-6 gap-y-6  gap-x-3 max-w-lg mx-8">
+            <div className="col-span-full	h-[74px] bg-white/5 rounded-xl  flex conter-center justify-center shadow-lg shadow-blue-500/50">
               <h1 className="flex flex-row items-center text-center font-semibold text-2xl tracking-wide	 bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text  self-center">
-                I can code in{" "}
+                My Current Stack{" "}
                 <span role="img" aria-label="arrow_Down">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -69,127 +73,157 @@ export default function Main() {
                 </span>
               </h1>
             </div>
-            <div className="col-span-1  bg-slate-200 p-2 rounded-xl flex justify-center content-center shadow-lg shadow-amber-200/40">
-              <svg
-                fill="#3178C6"
-                role="img"
-                viewBox="0 0 24 24"
-                className="w-2/3 duration-300 hover:rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>TypeScript</title>
-                <path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z" />
-              </svg>
-            </div>
-            <div className=" bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-amber-200/40">
-              <svg
-                fill="#A8B9CC"
-                role="img"
-                viewBox="0 0 24 24"
-                className="w-2/3 duration-300 hover:-rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>C</title>
-                <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z" />
-              </svg>
-            </div>
-            <div className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-amber-200/40 row-span-1">
-              <svg
-                fill="#00599C"
-                role="img"
-                viewBox="0 0 24 24"
-                className="w-2/3 duration-300 hover:rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>C++</title>
-                <path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z" />
-              </svg>
-            </div>
-            <div className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-amber-200/40 row-span-1">
-              <svg
-                fill="#E34F26"
-                role="img"
-                viewBox="0 0 24 24"
-                className="w-2/3 duration-300 hover:-rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>HTML5</title>
-                <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
-              </svg>
-            </div>
-            <div className="bg-slate-200 p-2 rounded-xl  flex justify-center content-center shadow-lg shadow-amber-200/40 row-span-1">
-              <svg
-                fill="#1572B6"
-                role="img"
-                viewBox="0 0 24 24"
-                className="w-2/3 duration-300 hover:rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>CSS3</title>
-                <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
-              </svg>
-            </div>
-            <div className="col-span-5 h-16 md:h-20 bg-white/5 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-2xl shadow-blue-500/80 mt-3">
-              <h1 className="flex flex-row items-center text-center bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text  self-center font-semibold text-2xl tracking-wide ">
-                The frameworks I use{" "}
-                <span role="img" aria-label="arrow_Down">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-8 h-8 fill-zinc-500"
-                  >
+
+            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
+              <div className="flex flex-row space-x-2 justify-start items-center content-center">
+                <div className="bg-[#007acc]/30 rounded-xl p-2">
+                  <svg viewBox="0 0 128 128" className="h-7 w-7">
+                    <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
                     <path
-                      fillRule="evenodd"
-                      d="M10 5a.75.75 0 01.75.75v6.638l1.96-2.158a.75.75 0 111.08 1.04l-3.25 3.5a.75.75 0 01-1.08 0l-3.25-3.5a.75.75 0 111.08-1.04l1.96 2.158V5.75A.75.75 0 0110 5z"
-                      clipRule="evenodd"
-                    />
+                      data-name="original"
+                      fill="#007acc"
+                      d="M1.5 63.91v62.5h125v-125H1.5zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1 23 23 0 01-12.72-6.63c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73L82 101l3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H56.66v46.23H45.15V69.26H28.88v-5a49.19 49.19 0 01.12-5.17C29.08 59 39 59 51 59h21.83z"
+                    ></path>
                   </svg>
+                </div>
+                <span className="flex flex-col ">
+                  <p className="text-white">TypeScript</p>
+                  <p className="text-blue-100 font-light text-xs">
+                    typed programming language that builds on JavaScript
+                  </p>
                 </span>
-              </h1>
+              </div>
             </div>
-            <div className="bg-slate-200 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-lg shadow-amber-200/40 mt-3">
-              <svg
-                fill="#61DAFB"
-                role="img"
-                viewBox="0 0 24 24"
-                className="w-2/3 duration-300 hover:rotate-6"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>React</title>
-                <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" />
-              </svg>
+            <div className="md:col-span-2 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
+              <div className="flex flex-row space-x-2 justify-start items-center content-center">
+                <div className="bg-[#61DAFB]/30 rounded-xl p-2">
+                  <svg viewBox="0 0 128 128" className="h-7 w-7">
+                    <g fill="#61DAFB">
+                      <circle cx="64" cy="64" r="11.4"></circle>
+                      <path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path>
+                    </g>
+                  </svg>
+                </div>
+                <span className="flex flex-col ">
+                  <p className="text-white">React</p>
+                  <p className="text-blue-100 font-light text-xs">
+                    UI Javascript Library
+                  </p>
+                </span>
+              </div>
             </div>
-            <div className="bg-slate-200 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-lg shadow-amber-200/40 mt-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 394 80"
-                className="w-2/3 duration-300 hover:rotate-6"
-              >
-                <title>NextJs</title>
-                <path
-                  fill="#000"
-                  d="M262 0h68.5v12.7h-27.2v66.6h-13.6V12.7H262V0ZM149 0v12.7H94v20.4h44.3v12.6H94v21h55v12.6H80.5V0h68.7zm34.3 0h-17.8l63.8 79.4h17.9l-32-39.7 32-39.6h-17.9l-23 28.6-23-28.6zm18.3 56.7-9-11-27.1 33.7h17.8l18.3-22.7z"
-                />
-                <path
-                  fill="#000"
-                  d="M81 79.3 17 0H0v79.3h13.6V17l50.2 62.3H81Zm252.6-.4c-1 0-1.8-.4-2.5-1s-1.1-1.6-1.1-2.6.3-1.8 1-2.5 1.6-1 2.6-1 1.8.3 2.5 1a3.4 3.4 0 0 1 .6 4.3 3.7 3.7 0 0 1-3 1.8zm23.2-33.5h6v23.3c0 2.1-.4 4-1.3 5.5a9.1 9.1 0 0 1-3.8 3.5c-1.6.8-3.5 1.3-5.7 1.3-2 0-3.7-.4-5.3-1s-2.8-1.8-3.7-3.2c-.9-1.3-1.4-3-1.4-5h6c.1.8.3 1.6.7 2.2s1 1.2 1.6 1.5c.7.4 1.5.5 2.4.5 1 0 1.8-.2 2.4-.6a4 4 0 0 0 1.6-1.8c.3-.8.5-1.8.5-3V45.5zm30.9 9.1a4.4 4.4 0 0 0-2-3.3 7.5 7.5 0 0 0-4.3-1.1c-1.3 0-2.4.2-3.3.5-.9.4-1.6 1-2 1.6a3.5 3.5 0 0 0-.3 4c.3.5.7.9 1.3 1.2l1.8 1 2 .5 3.2.8c1.3.3 2.5.7 3.7 1.2a13 13 0 0 1 3.2 1.8 8.1 8.1 0 0 1 3 6.5c0 2-.5 3.7-1.5 5.1a10 10 0 0 1-4.4 3.5c-1.8.8-4.1 1.2-6.8 1.2-2.6 0-4.9-.4-6.8-1.2-2-.8-3.4-2-4.5-3.5a10 10 0 0 1-1.7-5.6h6a5 5 0 0 0 3.5 4.6c1 .4 2.2.6 3.4.6 1.3 0 2.5-.2 3.5-.6 1-.4 1.8-1 2.4-1.7a4 4 0 0 0 .8-2.4c0-.9-.2-1.6-.7-2.2a11 11 0 0 0-2.1-1.4l-3.2-1-3.8-1c-2.8-.7-5-1.7-6.6-3.2a7.2 7.2 0 0 1-2.4-5.7 8 8 0 0 1 1.7-5 10 10 0 0 1 4.3-3.5c2-.8 4-1.2 6.4-1.2 2.3 0 4.4.4 6.2 1.2 1.8.8 3.2 2 4.3 3.4 1 1.4 1.5 3 1.5 5h-5.8z"
-                />
-              </svg>
+
+            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
+              <div className="flex flex-row space-x-2 justify-start items-center content-center">
+                <div className="bg-[#E44D26]/20 rounded-xl p-2">
+                  <svg viewBox="0 0 128 128" className="h-7 w-7">
+                    <path
+                      fill="#E44D26"
+                      d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"
+                    ></path>
+                    <path
+                      fill="#F16529"
+                      d="M64 116.8l36.378-10.086 8.559-95.878H64z"
+                    ></path>
+                    <path
+                      fill="#EBEBEB"
+                      d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"
+                    ></path>
+                  </svg>
+                </div>
+                <span className="flex flex-col ">
+                  <p className="text-white">HTML</p>
+                  <p className="text-blue-100 font-light text-xs">
+                    Standard markup language for web page creation
+                  </p>
+                </span>
+              </div>
             </div>
-            <div className="bg-slate-200 p-2 rounded-xl row-span-2 flex justify-center content-center shadow-lg shadow-amber-200/40 mt-3  ">
-              <svg
-                fill="#06B6D4"
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-2/3 duration-300 hover:rotate-6"
-              >
-                <title>Tailwind CSS</title>
-                <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
-              </svg>
+
+            <div className="md:col-span-2 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10 flex items-center">
+              <div className="flex flex-row space-x-2 justify-start items-center content-center">
+                <div className="bg-black/20 rounded-xl p-2">
+                  <svg viewBox="0 0 128 128" className="h-7 w-7">
+                    <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z"></path>
+                  </svg>
+                </div>
+                <span className="flex flex-col ">
+                  <p className="text-white">NextJS</p>
+                  <p className="text-blue-100 font-light text-xs">
+                    React Full-Stack Framework
+                  </p>
+                </span>
+              </div>
             </div>
+
+
+
+
+
+            
+
+            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10 flex items-center content-center">
+              <div className="flex flex-row space-x-2 justify-start items-center content-center">
+                <div className="bg-[#33A9DC]/20 rounded-xl p-2">
+                  <svg viewBox="0 0 128 128" className="h-7 w-7">
+                    <path
+                      fill="#1572B6"
+                      d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"
+                    ></path>
+                    <path
+                      fill="#33A9DC"
+                      d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"
+                    ></path>
+                    <path
+                      fill="#EBEBEB"
+                      d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"
+                    ></path>
+                    <path
+                      fill="#fff"
+                      d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"
+                    ></path>
+                    <path
+                      fill="#EBEBEB"
+                      d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"
+                    ></path>
+                  </svg>
+                </div>
+                <span className="flex flex-col ">
+                  <p className="text-white">CSS</p>
+                  <p className="text-blue-100 font-light text-xs">
+                    language use to style a Web page
+                  </p>
+                </span>
+              </div>
+            </div>
+
+            <div className="md:col-span-2 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10 flex items-center content-center">
+              <div className="flex flex-row space-x-2 justify-start items-center content-center">
+                <div className="bg-[#38b2ac]/20 rounded-xl p-2">
+                  <svg viewBox="0 0 128 128" className="h-7 w-7">
+                    <path
+                      d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0"
+                      fill="#38b2ac"
+                    ></path>
+                  </svg>
+                </div>
+                <span className="flex flex-col ">
+                  <p className="text-white">TailwindCSS</p>
+                  <p className="text-blue-100 font-light text-xs">
+                    CSS Framework
+                  </p>
+                </span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
