@@ -2,8 +2,9 @@ import Image from "next/image";
 export default function Main() {
   return (
     <main className="flex flex-col items-center  ">
-      <div className="py-2 px-6 bg-slate-200 rounded-xl my-10 mx-10 shadow-2xl shadow-slate-300/30">
-        <div className="  text-slate-800 text-3xl font-normal bg-gradient-to-bl from-slate-900 via-slate-600 to-slate-900 text-transparent bg-clip-text ">
+      <div 
+      className="py-2 px-6 bg-slate-100/5 border border-slate-100/80 rounded-xl my-10 mx-10">
+        <div className="  text-slate-200 text-3xl">
           Hello, I&apos;m an web developer based in Paris !
         </div>
       </div>
@@ -16,14 +17,14 @@ export default function Main() {
               </h1>
               <hr className="h-1 my-8 mx-20 bg-blue-900 border-0 " />
 
-              <p className="font-light text-lg	text-white indent-1">
-              Having studied at École 42 in Paris, I specialize in Front-End development and use this blog to share my expertise and experience in web development.
+              <p className=" text-lg	text-white indent-1">
+              Having studied at École 42 in Paris, I specialize in Front-End development and use this blog to share my expertise and experience in development.
               </p>
             </div>
 
             <a
               href="https://github.com/Rasaboun"
-              className="flex justify-center content-center bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10"
+              className="flex justify-center content-center bg-slate-200 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10"
             >
               <svg
                 viewBox="0 0 128 128"
@@ -40,7 +41,7 @@ export default function Main() {
               </svg>
             </a>
 
-            <div className="flex justify-center content-center bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
+            <div className="flex justify-center content-center bg-slate-200 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
               <svg
                 fill="#1DA1F2"
                 role="img"
@@ -55,13 +56,14 @@ export default function Main() {
           </div>
 
           <div className="grid grid-rows-8 grid-cols-1 md:grid-rows-4 md:grid-cols-6 gap-y-6  gap-x-3 max-w-lg mx-8">
-            <div className="col-span-full	h-[74px] bg-white/5 rounded-xl  flex conter-center justify-center shadow-lg shadow-blue-500/50">
-              <h1 className="text-center text-2xl bg-gradient-to-bl from-slate-50 via-slate-100 to-slate-50 text-transparent bg-clip-text self-center">
+            <div className="col-span-full	h-[74px] bg-white/5 rounded-xl  flex conter-center justify-center shadow-xl shadow-blue-500/50 border border-white/25">
+              
+              <h1 className="text-center text-2xl text-white self-center">
                 My Current Stack
               </h1>
             </div>
 
-            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10  border border-blue-300/10">
+            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10  border border-blue-300/10 flex flex-row justify-start content-center">
               <div className="flex flex-row space-x-2 justify-start items-center content-center">
                 <div className="bg-[#007acc]/30 rounded-xl p-2">
                   <svg viewBox="0 0 128 128" className="h-7 w-7">
@@ -75,13 +77,13 @@ export default function Main() {
                 </div>
                 <span className="flex flex-col ">
                   <p className="text-white">TypeScript</p>
-                  <p className="text-blue-100 font-light text-xs">
+                  <p className="text-blue-100 font-light text-sm">
                     typed programming language that builds on JavaScript
                   </p>
                 </span>
               </div>
             </div>
-            <div className="md:col-span-2 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
+            <div className="md:col-span-2 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10 flex flex-row justify-start content-center">
               <div className="flex flex-row space-x-2 justify-start items-center content-center">
                 <div className="bg-[#61DAFB]/30 rounded-xl p-2">
                   <svg viewBox="0 0 128 128" className="h-7 w-7">
@@ -93,14 +95,14 @@ export default function Main() {
                 </div>
                 <span className="flex flex-col ">
                   <p className="text-white">React</p>
-                  <p className="text-blue-100 font-light text-xs">
+                  <p className="text-blue-100 font-light text-sm">
                     UI Javascript Library
                   </p>
                 </span>
               </div>
             </div>
 
-            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10">
+            <div className="md:col-span-4 row-span-1  bg-white/10 p-2 rounded-xl shadow-lg shadow-blue-200/10 border border-blue-300/10 flex flex-row justify-start content-center">
               <div className="flex flex-row space-x-2 justify-start items-center content-center">
                 <div className="bg-[#E44D26]/20 rounded-xl p-2">
                   <svg viewBox="0 0 128 128" className="h-7 w-7">
@@ -124,7 +126,7 @@ export default function Main() {
                 </div>
                 <span className="flex flex-col ">
                   <p className="text-white">HTML</p>
-                  <p className="text-blue-100 font-light text-xs">
+                  <p className="text-blue-100 font-light text-sm">
                     Standard markup language for web page creation
                   </p>
                 </span>
@@ -140,7 +142,7 @@ export default function Main() {
                 </div>
                 <span className="flex flex-col ">
                   <p className="text-white">NextJS</p>
-                  <p className="text-blue-100 font-light text-xs">
+                  <p className="text-blue-100 font-light text-sm">
                     React Full-Stack Framework
                   </p>
                 </span>
@@ -179,7 +181,7 @@ export default function Main() {
                 </div>
                 <span className="flex flex-col ">
                   <p className="text-white">CSS</p>
-                  <p className="text-blue-100 font-light text-xs">
+                  <p className="text-blue-100 font-light text-sm">
                     language use to style a Web page
                   </p>
                 </span>
@@ -198,7 +200,7 @@ export default function Main() {
                 </div>
                 <span className="flex flex-col ">
                   <p className="text-white">TailwindCSS</p>
-                  <p className="text-blue-100 font-light text-xs">
+                  <p className="text-blue-100 font-light text-sm">
                     CSS Framework
                   </p>
                 </span>
