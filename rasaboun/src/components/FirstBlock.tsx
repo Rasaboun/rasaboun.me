@@ -1,4 +1,3 @@
-import logo from "./images/RasabounTrip-Connect.png";
 export default function FirstBlock(props: any) {
   return (
     <div className="grid grid-cols-2 gap-14 mx-16 grid-rows-6 mt-2">
