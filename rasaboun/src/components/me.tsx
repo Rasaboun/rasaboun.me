@@ -1,4 +1,3 @@
-
 export default function Me(props: any) {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-100 relative ">
@@ -49,11 +48,11 @@ export default function Me(props: any) {
               foundation in C.
             </p>
             <p className="text-slate-500 self-start mx-8 text-lg">
-              I have been speaking French since I was a child, and I have been
+              I can speak fluent in French, and I have been
               studying English for many years.
             </p>
             <div className="py-2 px-4 bg-slate-300/50 text-slate-600 font-light border-2 border-slate-300 w-10/12	md:w-4/6 rounded-xl mb-4 mt-6">
-              <p className="text-slate-500">
+              <p className="text-slate-500 flex justify-center">
                 <a
                   className="text-slate-600 font-semibold after:content-['_↗'] ..."
                   href="https://github.com/Rasaboun"
@@ -64,7 +63,6 @@ export default function Me(props: any) {
                 <a
                   className="text-slate-600 font-semibold after:content-['_↗'] ..."
                   href="https://www.linkedin.com"
-
                 >
                   my Linkedin profile
                 </a>
