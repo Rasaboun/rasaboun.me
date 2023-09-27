@@ -1,12 +1,4 @@
-import ImgBanner from "./ImgBanner.astro";
-import video from "./videos/rasabounconnect.mp4";
-import video2 from "./videos/rasabounconnect2.mp4";
-import video3 from "./videos/rasabounconnect3.mp4";
-import github from "./images/GitHub_Logo.png";
-import linkedin from "./images/LI-Logo.png";
 
-import img2 from "./images/sncf-2.png";
-import img3 from "./images/sncf-3.png";
 export default function Me(props: any) {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-100 relative ">
