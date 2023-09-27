@@ -1,9 +1,10 @@
 import ImgBanner from "./ImgBanner.astro";
 import video from "./videos/rasabounconnect.mp4";
 import video2 from "./videos/rasabounconnect2.mp4";
+import video3 from "./videos/rasabounconnect3.mp4"
 import img1 from "./images/sncf-1.png"
 import img2 from "./images/sncf-2.png"
-
+import img3 from "./images/sncf-3.png"
 export default function RasabounConnect(props: any) {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-200 relative ">
@@ -32,7 +33,7 @@ export default function RasabounConnect(props: any) {
             </p>
             <video
               controls
-              className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
+              className="w-10/12	md:w-4/6 shadow-md shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
               poster={img1.src}
             >
@@ -56,11 +57,11 @@ export default function RasabounConnect(props: any) {
             </p>
             <video
               controls
-              className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
+              className="w-10/12	md:w-4/6 shadow-md shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
               poster={img2.src}
             >
-              <source src={video2} type="video/mp4"></source>
+              <source src={video2 + "#t=0.1"} type="video/mp4"></source>
             </video>
             <div className="py-2 px-4 bg-slate-300/50 text-slate-600 font-light border-2 border-slate-300 w-10/12	md:w-4/6 rounded-b-xl">
               <p>Compare different routes to find the best one for you</p>
@@ -76,10 +77,11 @@ export default function RasabounConnect(props: any) {
             </p>
             <video
               controls
-              className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
+              className="w-10/12	md:w-4/6 shadow-md shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
+              poster={img3.src}
             >
-              <source src={video2} type="video/mp4"></source>
+              <source src={video3 + "#t=0.1"} type="video/mp4"></source>
             </video>
             <div className="py-2 px-4 bg-slate-300/50 text-slate-600 font-light border-2 border-slate-300 w-10/12	md:w-4/6 rounded-b-xl">
               <p>Follow step-by-step instructions</p>
