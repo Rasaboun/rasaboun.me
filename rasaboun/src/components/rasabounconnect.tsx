@@ -29,12 +29,11 @@ export default function RasabounConnect(props: any) {
               who are not familiar with the area.
             </p>
             <video
-              
               controls
               className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
             >
-              <source src={video} type="video/mp4"></source>
+              <source src={video + "#t=0.1"} type="video/mp4"></source>
             </video>
             <div className="py-2 px-4 bg-slate-300/50 text-slate-600 font-light border-2 border-slate-300 w-10/12	md:w-4/6 rounded-b-xl mb-4">
               <p>
@@ -53,7 +52,6 @@ export default function RasabounConnect(props: any) {
               distance.
             </p>
             <video
-              
               controls
               className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
@@ -73,7 +71,6 @@ export default function RasabounConnect(props: any) {
               step-by-step instructions and delays.
             </p>
             <video
-              
               controls
               className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
