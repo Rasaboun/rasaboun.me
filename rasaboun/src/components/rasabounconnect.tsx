@@ -1,15 +1,22 @@
 import ImgBanner from "./ImgBanner.astro";
 import video from "./videos/rasabounconnect.mp4";
 import video2 from "./videos/rasabounconnect2.mp4";
-import video3 from "./videos/rasabounconnect3.mp4"
-import img1 from "./images/sncf-1.png"
-import img2 from "./images/sncf-2.png"
-import img3 from "./images/sncf-3.png"
+import video3 from "./videos/rasabounconnect3.mp4";
+import img1 from "./images/sncf-1.png";
+import img2 from "./images/sncf-2.png";
+import img3 from "./images/sncf-3.png";
 export default function RasabounConnect(props: any) {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-200 relative ">
       <a href="/" className="absolute inset-0 w-screen h-full z-40"></a>
-      <div className="w-full md:w-3/5  z-50   flex flex-col  items-center md:mb-6 rounded-2xl  shadow-2xl">
+
+      <div className="w-full md:w-3/5  z-50 relative  flex flex-col  items-center md:mb-6 rounded-2xl  shadow-2xl">
+        <a
+          href="/"
+          className="absolute top-12 right-8 md:top-14 text-black font-semibold md:right-10 bg-slate-50 rounded-full cursor-pointer px-3 py-1 md:px-4 md:py-2 backdrop-blur-lg	opacity-90 z-50 active:scale-90 transition ease-in-out duration-200 hover:scale-110"
+        >
+          X
+        </a>
         <div className="w-full h-[280px]			flex items-center mt-6 relative bg-slate-900 rounded-t-2xl">
           {props.imgbanner}
         </div>
