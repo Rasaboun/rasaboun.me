@@ -10,7 +10,7 @@ export default function RasabounConnect(props: any) {
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-200 relative ">
       <a href="/" className="absolute inset-0 w-screen h-full z-40"></a>
       <div className="w-full md:w-3/5  z-50   flex flex-col  items-center md:mb-6 rounded-2xl  shadow-2xl">
-        <div className="w-full h-[370px]			flex items-center mt-6 relative bg-slate-900 rounded-t-2xl">
+        <div className="w-full h-[280px]			flex items-center mt-6 relative bg-slate-900 rounded-t-2xl">
           {props.imgbanner}
         </div>
         <div className="items-center flex flex-col  bg-white rounded-b-2xl animate-openning pb-8 w-full">
