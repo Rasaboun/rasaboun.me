@@ -58,6 +58,7 @@ export default function RasabounConnect(props: any) {
               controls
               className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
+              poster={img2.src}
             >
               <source src={video2} type="video/mp4"></source>
             </video>
