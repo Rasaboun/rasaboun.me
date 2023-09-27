@@ -1,6 +1,8 @@
 import ImgBanner from "./ImgBanner.astro";
 import video from "./videos/rasabounconnect.mp4";
 import video2 from "./videos/rasabounconnect2.mp4";
+import img1 from "./images/sncf-1.png"
+import img2 from "./images/sncf-2.png"
 
 export default function RasabounConnect(props: any) {
   return (
@@ -32,6 +34,7 @@ export default function RasabounConnect(props: any) {
               controls
               className="w-10/12	md:w-4/6 shadow-2xl shadow-slate-900 mt-6 animate-openning rounded-t-xl"
               controlsList="nodownload"
+              poster={img1.src}
             >
               <source src={video + "#t=0.1"} type="video/mp4"></source>
             </video>
