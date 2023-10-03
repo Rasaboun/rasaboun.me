@@ -9,9 +9,15 @@ export default function FirstBlock(props: any) {
       </a>
       <a
         href="/rasabounconnect"
-        className="h-[280px] col-span-1 w-full row-span-6	items-center	justify-center	  relative hover:scale-105 active:scale-100 transition-transform	duration-300	ease-in-out	shadow-2xl rounded-xl"
+        className="h-[280px] bg-slate-900 col-span-1 w-full row-span-6	items-center	justify-center	  relative hover:scale-105 active:scale-100 transition-transform	duration-300	ease-in-out	shadow-2xl rounded-xl"
       >
         {props.imgbanner}
+      </a>
+      <a
+        href="/cub3d"
+        className="h-[280px] bg-sky-950 col-span-1 w-full row-span-6	items-center	justify-center	  relative hover:scale-105 active:scale-100 transition-transform	duration-300	ease-in-out	shadow-2xl rounded-xl"
+      >
+        {props.imgcub3d}
       </a>
     </div>
   );
