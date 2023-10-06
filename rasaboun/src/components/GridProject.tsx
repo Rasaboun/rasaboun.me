@@ -25,6 +25,12 @@ export default function GridProject(props: any) {
       >
         {props.imgminishell}
       </a>
+      <a
+        href="/weatherdashboard"
+        className="h-[280px] bg-sky-700 flex col-span-1 w-full row-span-6	items-center	justify-center	  relative hover:scale-105 active:scale-100 transition-transform	duration-300	ease-in-out	shadow-2xl rounded-xl"
+      >
+        {props.imgweather}
+      </a>
     </div>
   );
 }

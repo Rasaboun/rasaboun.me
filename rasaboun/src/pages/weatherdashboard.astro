@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/globals.css";
+import ImgWeather from "../components/illustrations/ImgWeather.astro";
+import P_Weather from "../components/P_Weather";
+---
+
+<Layout title="WeatherDashboard">
+  <P_Weather class="shadow-2xl">
+    <ImgWeather slot="imgbanner" />
+  </P_Weather>
+</Layout>
