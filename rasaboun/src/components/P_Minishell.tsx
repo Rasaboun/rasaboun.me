@@ -18,7 +18,7 @@ export default function P_Minishell(props: any) {
           {props.imgbanner}
         </div>
         <div className="items-center flex flex-col  bg-white rounded-b-2xl animate-openning pb-8 w-full">
-          <p className="text-slate-500 mx-8 mt-4 text-lg md:border-b-4 md:pb-6 ">
+          <p className="text-slate-500 mx-8 mt-4 text-lg md:border-b-4 md:pb-6 self-start">
             <span className="font-medium text-slate-950 mr-1">
               A simple C shell
             </span>
@@ -89,7 +89,7 @@ export default function P_Minishell(props: any) {
               version="1.1"
               id="svg136"
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-40 rounded-xl"
+              className="h-10 w-40 rounded-xl mt-4"
             >
               <path
                 d="M 0,7 H 16 V 0 H 2 C 0.9,0 0,0.9 0,2 Z"
@@ -158,10 +158,10 @@ export default function P_Minishell(props: any) {
                   width="18.950001"
                   height="25.875"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
                   <feFlood
-                    flood-opacity="0"
+                    floodOpacity="0"
                     result="BackgroundImageFix"
                     id="feFlood29"
                   />
@@ -218,10 +218,10 @@ export default function P_Minishell(props: any) {
                   width="18.950001"
                   height="18.875"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
                   <feFlood
-                    flood-opacity="0"
+                    floodOpacity="0"
                     result="BackgroundImageFix"
                     id="feFlood54"
                   />
@@ -278,10 +278,10 @@ export default function P_Minishell(props: any) {
                   width="24"
                   height="11"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
                   <feFlood
-                    flood-opacity="0"
+                    floodOpacity="0"
                     result="BackgroundImageFix"
                     id="feFlood79"
                   />
@@ -340,8 +340,8 @@ export default function P_Minishell(props: any) {
                   gradientUnits="userSpaceOnUse"
                   gradientTransform="translate(0,-6)"
                 >
-                  <stop stop-color="#333333" id="stop104" />
-                  <stop offset="1" stop-color="#4D4D4D" id="stop106" />
+                  <stop stopColor="#333333" id="stop104" />
+                  <stop offset="1" stopColor="#4D4D4D" id="stop106" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear"
@@ -351,8 +351,8 @@ export default function P_Minishell(props: any) {
                   y2="26.992399"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#999999" id="stop109" />
-                  <stop offset="1" stop-color="#B3B3B3" id="stop111" />
+                  <stop stopColor="#999999" id="stop109" />
+                  <stop offset="1" stopColor="#B3B3B3" id="stop111" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear"
@@ -362,8 +362,8 @@ export default function P_Minishell(props: any) {
                   y2="26.992399"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#999999" id="stop114" />
-                  <stop offset="1" stop-color="#B3B3B3" id="stop116" />
+                  <stop stopColor="#999999" id="stop114" />
+                  <stop offset="1" stopColor="#B3B3B3" id="stop116" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear"
@@ -373,8 +373,8 @@ export default function P_Minishell(props: any) {
                   y2="16.9781"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#CCCCCC" id="stop119" />
-                  <stop offset="1" stop-color="#E6E6E6" id="stop121" />
+                  <stop stopColor="#CCCCCC" id="stop119" />
+                  <stop offset="1" stopColor="#E6E6E6" id="stop121" />
                 </linearGradient>
                 <linearGradient
                   id="paint4_linear"
@@ -384,8 +384,8 @@ export default function P_Minishell(props: any) {
                   y2="16.9781"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#CCCCCC" id="stop124" />
-                  <stop offset="1" stop-color="#E6E6E6" id="stop126" />
+                  <stop stopColor="#CCCCCC" id="stop124" />
+                  <stop offset="1" stopColor="#E6E6E6" id="stop126" />
                 </linearGradient>
                 <linearGradient
                   id="paint5_linear"
@@ -395,8 +395,8 @@ export default function P_Minishell(props: any) {
                   y2="29.044701"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#CCCCCC" id="stop129" />
-                  <stop offset="1" stop-color="#E6E6E6" id="stop131" />
+                  <stop stopColor="#CCCCCC" id="stop129" />
+                  <stop offset="1" stopColor="#E6E6E6" id="stop131" />
                 </linearGradient>
               </defs>
             </svg>
