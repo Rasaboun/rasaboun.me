@@ -3,6 +3,10 @@
 	  {
 		"source": "/umami/js/script.js",
 		"destination": "https://analytics.eu.umami.is/script.js"
+	  },
+	  {
+		"source": "/umami/api/event",
+		"destination": "https://analytics.eu.umami.is"
 	  }
 	]
   }
