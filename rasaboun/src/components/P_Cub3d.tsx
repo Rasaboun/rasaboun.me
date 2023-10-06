@@ -4,7 +4,7 @@ import video3 from "./videos/cub3d3.mp4";
 import img1 from "./images/cub3d-1.png";
 import img2 from "./images/cub3d-2.png";
 import img3 from "./images/cub3d-3.png";
-export default function Cub3d(props: any) {
+export default function P_Cub3d(props: any) {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-100 relative ">
       <a href="/" className="absolute inset-0 w-screen h-full z-40"></a>
