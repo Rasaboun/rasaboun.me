@@ -6,7 +6,7 @@
 	  },
 	  {
 		"source": "/umami/api/event",
-		"destination": "https://analytics.eu.umami.is/sso?url=websites%2F9f2b5b18-5ec6-4d56-a29e-ac84e894a8d3/api/send"
+		"destination": "https://analytics.eu.umami.is/api/send"
 	  }
 	]
   }
