@@ -18,11 +18,11 @@ export default function P_Minishell(props: any) {
           {props.imgbanner}
         </div>
         <div className="items-center flex flex-col  bg-white rounded-b-2xl animate-openning pb-8 w-full">
-          <p className="text-slate-500 mx-8 mt-4 text-lg md:border-b-4 md:pb-6 self-start">
+          <p className="text-slate-500 mx-8 mt-4 text-lg md:border-b-4 md:pb-6 self-start w-11/12">
             <span className="font-medium text-slate-950 mr-1">
               A simple C shell
             </span>
-            that is perfect for users who want a simple, efficient shell
+            that is perfect for users who want a simple, efficient shell write in C.
           </p>
           <p className="self-start mx-8 text-xl font-semibold text-slate-900 mt-6">
             Compilation and Execution
