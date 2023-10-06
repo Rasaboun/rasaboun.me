@@ -1,19 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "../styles/globals.css";
-import FirstBlock from "../components/FirstBlock";
+import GridProject from "../components/GridProject";
 import Header from "../components/Header";
-import ImgBanner from "../components/ImgBanner.astro";
-import ImgMe from "../components/ImgMe.astro";
-import ImgCub3D from "../components/ImgCub3d.astro";
-
+import ImgBanner from "../components/illustrations/ImgBanner.astro";
+import ImgMe from "../components/illustrations/ImgMe.astro";
+import ImgCub3D from "../components/illustrations/ImgCub3d.astro";
+import ImgMinishell from "../components/illustrations/ImgMinishell.astro";
 ---
 
 <Layout title="Welcome to Rasaboun.me">
-  <Header />
-  <FirstBlock >
-    <ImgBanner slot="imgbanner"/>
-    <ImgMe slot="imgme"/>
-    <ImgCub3D slot="imgcub3d"/>
-  </FirstBlock>
+  <div class="flex flex-col w-screen">
+    <Header />
+    <GridProject>
+      <ImgBanner slot="imgbanner" />
+      <ImgMe slot="imgme" />
+      <ImgCub3D slot="imgcub3d" />
+      <ImgMinishell slot="imgminishell" />
+    </GridProject>
+  </div>
 </Layout>

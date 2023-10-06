@@ -1,11 +1,10 @@
-import ImgBanner from "./ImgBanner.astro";
 import video from "./videos/rasabounconnect.mp4";
 import video2 from "./videos/rasabounconnect2.mp4";
 import video3 from "./videos/rasabounconnect3.mp4";
 import img1 from "./images/sncf-1.png";
 import img2 from "./images/sncf-2.png";
 import img3 from "./images/sncf-3.png";
-export default function RasabounConnect(props: any) {
+export default function P_RasabounConnect(props: any) {
   return (
     <div className="w-screen min-h-screen flex flex-col items-center bg-slate-100 relative ">
       <a href="/" className="absolute inset-0 w-screen h-full z-40"></a>
