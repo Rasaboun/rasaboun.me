@@ -2,7 +2,7 @@
 	"rewrites": [
 	  {
 		"source": "/umami/js/script.js",
-		"destination": "https://analytics.eu.umami.is/script.js"
+		"destination": "https://analytics.umami.is/script.js"
 	  }
 	]
   }
