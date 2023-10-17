@@ -11,14 +11,58 @@ import ImgWeather from "../components/illustrations/ImgWeather.astro";
 ---
 
 <Layout title="Welcome to Rasaboun.me">
-  <div class="flex flex-col w-screen">
+  <script type="text/javascript" is:inline>
+  (function (C, A, L) {
+    let p = function (a, ar) {
+      a.q.push(ar);
+    };
+    let d = C.document;
+    C.Cal =
+      C.Cal ||
+      function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments);
+          };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          typeof namespace === "string"
+            ? (cal.ns[namespace] = api) && p(api, ar)
+            : p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+  })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init", { origin: "https://cal.com" });
+
+  Cal("floatingButton", {
+    calLink: "rasaboun/30min",
+    config: { layout: "month_view" },
+    buttonText: "Book a call ?",
+  });
+  Cal("ui", {
+    styles: { branding: { brandColor: "#202020" } },
+    hideEventTypeDetails: false,
+    layout: "month_view",
+  });
+  </script>
+  <div class="flex flex-col max-w-screen-2xl">
     <Header />
     <GridProject>
       <ImgBanner slot="imgbanner" />
       <ImgMe slot="imgme" />
       <ImgCub3D slot="imgcub3d" />
       <ImgMinishell slot="imgminishell" />
-      <ImgWeather slot="imgweather"/>
+      <ImgWeather slot="imgweather" />
     </GridProject>
   </div>
 </Layout>
