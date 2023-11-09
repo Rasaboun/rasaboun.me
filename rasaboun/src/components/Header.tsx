@@ -13,7 +13,6 @@ export default function Header() {
         <a href="https://github.com/Rasaboun">
         <img src={img.src} alt="github logo" className="w-8 h-8 hover:scale-105 transition-transform duration-150 ease-in-out "/>
         </a>
-    
     </div>
   );
 }
