@@ -1,7 +1,6 @@
 name: Test
 
-on:
-  push:
+on: push
 permissions:
   contents: read
   id-token: write
